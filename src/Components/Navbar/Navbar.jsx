@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import { navLinks } from "../../Data";
-import { socialIcons } from "../../Data";
+import { navLinks } from "../../Data.jsx";
+import { socialIcons } from "../../Data.jsx";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
